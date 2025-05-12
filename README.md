@@ -12,10 +12,8 @@ Welcome to **Travel Explorer**, a responsive website that helps users discover i
 
 ## 🌐 Live Deployment (example)
 
-GitHub Pages: https://yourusername.github.io/travel-recommendation-website  
-Repository: https://github.com/yourusername/travel-recommendation-website
-
-> Replace `yourusername` with your actual GitHub username.
+GitHub Pages: https://Ouafae-Engineer.github.io/travel-recommendation
+Repository: https://github.com/Ouafae-Engineer/travel-recommendation
 
 ## 📁 Structure
 

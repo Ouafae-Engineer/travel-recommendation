@@ -1,0 +1,123 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #0077cc;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.intro {
+  text-align: center;
+  background-color: #e3f2fd;
+  padding: 3em 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+}
+
+.recommendation {
+  background: white;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation h2 {
+  margin-bottom: 0.5em;
+  color: #0077cc;
+}
+
+.recommendation p {
+  margin-bottom: 1em;
+}
+
+.recommendation img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-right: 1em;
+}
+
+.recommendation-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  resize: vertical;
+}
+
+form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+@media (max-width: 768px) {
+  .recommendation-images {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
